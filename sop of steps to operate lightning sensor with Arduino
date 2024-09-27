@@ -1,0 +1,30 @@
+step-1  Download the Arduino IDE from the terminal
+        open the terminal 
+        enter_sudo_apt_update
+        sudo apt install arduino
+
+step-2  Download the sensor library (.cpp and .h file ) from the web git hub 
+        open the search option and enter git hub lightning sensor (aS3935)
+        open the git hub and download the .cpp and .h 
+        add these library to a new file and then give a name to that file as lightning sensor
+
+step-3  connect the module (sensor) to the arduino according to the connection diagram
+        connections are ;  
+                      IrQ-2 digital pin 
+                      D - A4
+                      c-  A5
+                      _ -GND
+                      + - 5v
+
+step-4 copy the sensor code from the web page of Df robot  gravity lightning sensor AS3935
+       paste the code in the new file of the arduino Ide 
+
+step-5 modyfy the I2c address before running the code
+
+step-6 open the arduino ide uplode the sample code to the arduino uno 
+
+step-7 befor running the code check the usb connection, serial port, programming then run the sample code
+
+step-8  open the tools
+        click on the serial monitor 
+        set the baud rate to t5he 115200
